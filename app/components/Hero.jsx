@@ -4,16 +4,16 @@ import Features from './Features'
 
 const Hero = () => {
   return (
-    <div className='w-full bg-blue-100 flex flex-col gap-6 relative'>
-        <h1 className='w-full max-w-[1200px] mx-auto text-center text-9xl  font-bold text-indigo-950 mt-10 mb-5'>Essential Vitamins</h1>
-        <div className='w-full max-w-[1185px] flex items-center justify-between mx-auto'>
-            <div className='flex flex-col gap-4 w-1/6'>
+    <div className='w-full bg-blue-100 flex flex-col gap-4 relative'>
+        <h1 className='w-full max-w-[1200px] mx-auto text-center text-[8.5rem] max-lg:text-8xl max-sm:text-7xl font-bold text-indigo-950 mt-10 mb-5'>Essential Vitamins</h1>
+        <div className='w-full max-w-[1185px] flex items-center justify-between mx-auto max-xl:px-6 max-lg:flex-col max-lg:gap-8'>
+            <div className='flex flex-col gap-4 w-1/6 max-xl:w-1/4 max-lg:w-1/2 max-sm:w-full'>
                 <p className='text-gray-600 mb-1 text-lg'>Online Medical Supplies</p>
                 <p className='text-[#004958] text-2xl font-semibold'>Get Your Vitamins & Minerals </p>
                 <button className='w-3/4 text-center text-white bg-[#004958] rounded-3xl p-3'>EXPLORE</button>
             </div>
             <div className='w-[300px] h-[300px] bg-orange-200 rounded-tl-[30%] rounded-br-[30%] relative'>
-                <Image src='/images/product-3.png.png' width={400} height={500} alt='' className='absolute -top-16 -rotate-12'/>
+                <Image src='/images/product-3.png.png' width={400} height={500} alt='' className='absolute -top-16 max-lg:-top-7 max-sm:right-2 -rotate-12 max-sm:w-[250px] max-sm:h-[300px]'/>
             </div>
             <div className='flex flex-col gap-4'>
                 <div className='flex items-center gap-4'>
@@ -57,7 +57,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        <div className='flex items-center gap-3 w-full max-w-[1185px] mx-auto mt-14 mb-64'>
+        <div className='flex items-center gap-3 w-full max-xl:px-6 max-w-[1185px] mx-auto sm:mt-14 mt-20 lg:mb-64 sm:mb-80 mb-96'>
             <div className='w-10 h-10 rounded-full bg-[#8da8d0]'></div>
             <div className='w-10 h-10 rounded-full bg-[#8da8d0]'></div>
         </div>

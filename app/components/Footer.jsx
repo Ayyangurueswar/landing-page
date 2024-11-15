@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <div className='w-full bg-[#004985] relative'>
         <NewsLetter />
-        <div className='w-full max-w-[1185px] mx-auto mt-96'>
-            <div className='flex items-center justify-between pt-56'>
-                <div className='flex items-center gap-10 justify-center bg-[#216dab] rounded-xl py-2 w-[30%]'>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#fcfcfc" height="64px" width="64px" version="1.1" id="Icons" viewBox="0 0 32 32" xmlSpace="preserve" stroke="#fcfcfc">
+        <div className='w-full max-w-[1185px] mx-auto mt-96 max-lg:px-6'>
+            <div className='flex items-center justify-between lg:pt-56 pt-96 max-md:flex-col max-md:gap-5'>
+                <div className='flex items-center lg:gap-10 gap-5 justify-center bg-[#216dab] rounded-xl py-2 max-lg:p-4 w-[30%] max-md:w-1/2 max-md:mt-8 max-sm:w-full max-sm:mt-72'>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#fcfcfc" height="64px" width="64px" className='max-lg:w-[30px] max-lg:h-[30px]' version="1.1" id="Icons" viewBox="0 0 32 32" xmlSpace="preserve" stroke="#fcfcfc">
                 <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
                 <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"/>
                 <g id="SVGRepo_iconCarrier"><g><path d="M29,17h-5.4c-1.8,0-3.2-1.5-3.2-3.3c0-0.3,0-0.7-1.1-0.7h-6.6c-1.1,0-1.1,0.4-1.1,0.7c0,1.8-1.4,3.3-3.2,3.3H3 c-0.6,0-1-0.4-1-1c0-5,3.9-9,8.6-9h10.8c4.7,0,8.6,4,8.6,9C30,16.6,29.6,17,29,17z"/> </g> <path d="M23.6,19c-2.4,0-4.5-1.7-5.1-4h-5.2c-0.6,2.3-2.6,4-5.1,4h-1C6.1,21.4,5,24.4,5,27c0,0.6,0.4,1,1,1h20c0.6,0,1-0.4,1-1 c0-2.6-1.1-5.6-2.3-8H23.6z M16,25c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S18.2,25,16,25z"/> <path d="M23,30c-0.6,0-1-0.4-1-1v-2c0-0.6,0.4-1,1-1s1,0.4,1,1v2C24,29.6,23.6,30,23,30z"/> <path d="M9,30c-0.6,0-1-0.4-1-1v-2c0-0.6,0.4-1,1-1s1,0.4,1,1v2C10,29.6,9.6,30,9,30z"/> </g>
@@ -20,23 +20,23 @@ const Footer = () => {
                     <p className='font-semibold'>+974 3118 1843</p>
                 </div>
                 </div>
-                <div className='flex items-center gap-10 justify-center bg-[#216dab] rounded-xl py-2 w-[30%]'>
-                <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#fffafa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> <rect x="3" y="5" width="18" height="14" rx="2" stroke="#fffafa" strokeWidth="2" strokeLinecap="round"></rect> </g></svg>
+                <div className='flex items-center lg:gap-10 gap-5 justify-center bg-[#216dab] rounded-xl max-lg:p-4 py-2 w-[30%] max-md:w-1/2 max-sm:w-full'>
+                <svg width="64px" height="64px" className='max-lg:w-[30px] max-lg:h-[30px]' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#fffafa" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> <rect x="3" y="5" width="18" height="14" rx="2" stroke="#fffafa" strokeWidth="2" strokeLinecap="round"></rect> </g></svg>
                 <div className='text-white'>
                     <p>Email address</p>
                     <p className='font-semibold'>Elbrithcqhr@gmail.com</p>
                 </div>
                 </div>
-                <div className='flex items-center gap-10 justify-center bg-[#216dab] rounded-xl py-2 w-[30%]'>
-                <svg width="64px" height="64px" viewBox="-4 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>location</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"> <g id="Icon-Set" transform="translate(-104.000000, -411.000000)" fill="#ffffff"> <path d="M116,426 C114.343,426 113,424.657 113,423 C113,421.343 114.343,420 116,420 C117.657,420 119,421.343 119,423 C119,424.657 117.657,426 116,426 L116,426 Z M116,418 C113.239,418 111,420.238 111,423 C111,425.762 113.239,428 116,428 C118.761,428 121,425.762 121,423 C121,420.238 118.761,418 116,418 L116,418 Z M116,440 C114.337,440.009 106,427.181 106,423 C106,417.478 110.477,413 116,413 C121.523,413 126,417.478 126,423 C126,427.125 117.637,440.009 116,440 L116,440 Z M116,411 C109.373,411 104,416.373 104,423 C104,428.018 114.005,443.011 116,443 C117.964,443.011 128,427.95 128,423 C128,416.373 122.627,411 116,411 L116,411 Z" id="location"> </path> </g> </g> </g></svg>
+                <div className='flex items-center lg:gap-10 gap-5 justify-center bg-[#216dab] rounded-xl max-lg:p-4 py-2 w-[30%] max-md:w-1/2 max-sm:w-full'>
+                <svg width="64px" height="64px" className='max-lg:w-[30px] max-lg:h-[30px]' viewBox="-4 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>location</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"> <g id="Icon-Set" transform="translate(-104.000000, -411.000000)" fill="#ffffff"> <path d="M116,426 C114.343,426 113,424.657 113,423 C113,421.343 114.343,420 116,420 C117.657,420 119,421.343 119,423 C119,424.657 117.657,426 116,426 L116,426 Z M116,418 C113.239,418 111,420.238 111,423 C111,425.762 113.239,428 116,428 C118.761,428 121,425.762 121,423 C121,420.238 118.761,418 116,418 L116,418 Z M116,440 C114.337,440.009 106,427.181 106,423 C106,417.478 110.477,413 116,413 C121.523,413 126,417.478 126,423 C126,427.125 117.637,440.009 116,440 L116,440 Z M116,411 C109.373,411 104,416.373 104,423 C104,428.018 114.005,443.011 116,443 C117.964,443.011 128,427.95 128,423 C128,416.373 122.627,411 116,411 L116,411 Z" id="location"> </path> </g> </g> </g></svg>
                 <div className='text-white'>
                     <p>Office Location</p>
                     <p className='font-semibold'>Ambassador Street, Zone 61,</p>
                 </div>
                 </div>
             </div>
-            <div className='flex items-center justify-between py-8'>
-                <div className='w-1/4'>
+            <div className='flex items-center justify-between py-8 max-md:flex-col max-md:gap-6'>
+                <div className='w-1/4 max-md:w-1/2 max-sm:w-full'>
                     <Image src='/images/Outlook-image.png' alt='' width={250} height={300}/>
                     <p className='text-gray-200 text-sm'>Your health, physical and emotional well-being is important to us. We are always by your side and have made it even easier for you to find the necessary vitamins</p>
                     <div className='mt-4 flex items-center gap-4'>

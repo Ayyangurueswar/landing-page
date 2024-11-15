@@ -2,9 +2,9 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className='absolute -bottom-64 w-full mx-auto'>
-        <div className='bg-[#004958] w-full max-w-[1185px] mx-auto rounded-[3rem] px-16 pb-20'>
-        <div className='grid grid-cols-3 bg-transparent gap-10 w-full'>
+    <div className='absolute lg:-bottom-64 sm:-bottom-80 -bottom-96 w-full max-xl:px-6 mx-auto'>
+        <div className='bg-[#004958] w-full max-w-[1185px] mx-auto rounded-[3rem] md:px-16 sm:px-8 px-4 sm:pb-20 pb-6'>
+        <div className='grid grid-cols-3 max-lg:grid-cols-2 bg-transparent md:gap-10 sm:gap-5 gap-2 w-full'>
             <div className='flex flex-col items-center w-3/4 mx-auto -mt-14'>
                 <div className='w-24 h-24 bg-white rounded-full flex items-center justify-center mb-4'>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#004958" height="40px" width="40px" version="1.1" id="XMLID_207_" viewBox="0 0 24 24" xmlSpace="preserve">
@@ -35,7 +35,7 @@ const Features = () => {
                 <p className='text-sm text-slate-300 text-center'>We have a wide selection of vegetarian 
                 products to meet your needs</p>
             </div>
-            <div className='flex flex-col items-center w-3/4 mx-auto -mt-14'>
+            <div className='flex flex-col items-center w-3/4 mx-auto lg:-mt-14'>
                 <div className='w-24 h-24 bg-white rounded-full flex items-center justify-center mb-4'>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#004958" version="1.1" id="Layer_1" width="40px" height="40px" viewBox="0 0 241 260" enableBackground="new 0 0 241 260" xmlSpace="preserve">
                 <polygon points="227.822,63.335 215.884,64.816 195.815,80.809 197.159,87.984 179.343,90.9 171.988,87.529 170.643,79.845   163.422,80.02 165.128,93.27 146.79,93.703 121.821,86.002 100.271,74.179 106.398,62.15 90.884,51.603 89.61,41.434 93.782,43.975   98.261,41.155 93.118,31.532 102.741,22.739 104.772,15.626 97.113,12.953 82.998,15.439 68.397,2 52.291,3.126 47.145,9.69   58.727,18.336 55.858,21.297 52.997,21.914 52.814,35.434 63.024,41.67 34.41,80.535 22.268,79.373 14.591,89.807 26.46,109.512   17.324,113.75 7.186,112.018 2.289,116.552 10.581,125.209 9.784,132.863 23.954,145.028 24.25,144.8 37.85,140.7 39.582,147.898   39.855,169.221 58.216,223.805 62.682,232.394 68.741,252.441 73.594,258 82.205,257.339 83.845,251.986 98.311,235.424   98.311,233.897 98.015,226.243 98.357,225.15 102.366,211.822 101.957,211.572 102.116,211.185 102.366,211.822 102.207,211.048   100.157,197.766 101.957,191.866 134.397,168.287 140.16,160.633 143.737,154.984 153.578,152.455 162.076,137.579 167.497,134.252   175.448,136.394 168.5,105.412 168.181,93.908 177.999,95.798 179.594,102.428 184.265,104.774 200.826,105.002 199.186,109.284   200.621,116.712 204.198,130.198 210.167,121.153 208.959,113.112 214.745,113.727 218.96,99.625 222.879,88.44 234.451,81.128   238.711,74.794 "/>
